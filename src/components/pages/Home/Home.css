@@ -1,0 +1,27 @@
+.home{
+    position: relative;
+    min-height: 89.5vh;
+    background-image: url(/src/assets/images/bg-desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+}
+#welcome-text{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+    overflow: hidden;
+    max-height: 80px;
+    max-width: fit-content;
+    line-height: 58px;
+    animation: typeAnimation 4s ease-in-out infinite;
+}
+
+@keyframes typeAnimation {
+    from {
+        width: 0;
+    }
+    to{
+        width:100%;
+    }
+}

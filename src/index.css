@@ -1,0 +1,32 @@
+@font-face {
+  font-family: tanha;
+  src: url('./assets/font/tanha/Tanha-FD-WOL.eot');
+  src: url('./assets/font/tanha/Tanha-FD-WOL.eot?#iefix') format('FontName-opentype'),
+       url('./assets/font/tanha/Tanha-FD-WOL.woff') format('woff'),
+       url('./assets/font/tanha/Tanha-FD-WOL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"tanha",Tahoma,sans-serif ;
+  
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root{
+  min-height: 100vh;
+}

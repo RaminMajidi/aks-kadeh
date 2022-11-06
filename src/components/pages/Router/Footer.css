@@ -1,0 +1,12 @@
+footer{
+    height: 100px;
+    bottom: 0;
+    margin-top: 15px;
+}
+.social i{
+    transition: all .5s ease-in;
+}
+.social:hover i{
+    color: #f2f2f2;
+    transform: scale(1.3);
+}

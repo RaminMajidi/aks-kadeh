@@ -1,0 +1,14 @@
+.date-selector{
+    position: absolute;
+    top:0;
+}
+#date-check{
+    position: relative;
+    left: 60%;
+    bottom:90%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50%;
+}
